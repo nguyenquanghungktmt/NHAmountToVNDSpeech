@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5C55B8242D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */; };
 		5C55B82A2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C55B81F2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework */; };
-		5C55B82F2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */; };
 		5C55B8302D22A69F00FEDA6E /* NHAmountToVNDSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C55B8222D22A69F00FEDA6E /* NHAmountToVNDSpeech.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C55B83D2D22A6DE00FEDA6E /* NumberToVietnamese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */; };
 		5C55B83E2D22A6DF00FEDA6E /* AmountToVNDSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */; };
@@ -31,7 +30,6 @@
 		5C55B8222D22A69F00FEDA6E /* NHAmountToVNDSpeech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAmountToVNDSpeech.h; sourceTree = "<group>"; };
 		5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NHAmountToVNDSpeech.docc; sourceTree = "<group>"; };
 		5C55B8292D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHAmountToVNDSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHAmountToVNDSpeechTests.swift; sourceTree = "<group>"; };
 		5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberToVietnamese.swift; sourceTree = "<group>"; };
 		5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountToVNDSpeech.swift; sourceTree = "<group>"; };
 		5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				5C55B8212D22A69F00FEDA6E /* NHAmountToVNDSpeech */,
-				5C55B82D2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */,
 				5C55B8202D22A69F00FEDA6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,14 +79,6 @@
 				5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */,
 			);
 			path = NHAmountToVNDSpeech;
-			sourceTree = "<group>";
-		};
-		5C55B82D2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */,
-			);
-			path = NHAmountToVNDSpeechTests;
 			sourceTree = "<group>";
 		};
 		5C55B8392D22A6C700FEDA6E /* Sources */ = {
@@ -222,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C55B82F2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
