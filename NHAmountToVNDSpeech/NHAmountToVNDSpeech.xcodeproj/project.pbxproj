@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C55B8242D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */; };
+		5C55B82A2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C55B81F2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework */; };
+		5C55B82F2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */; };
+		5C55B8302D22A69F00FEDA6E /* NHAmountToVNDSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C55B8222D22A69F00FEDA6E /* NHAmountToVNDSpeech.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C55B83D2D22A6DE00FEDA6E /* NumberToVietnamese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */; };
+		5C55B83E2D22A6DF00FEDA6E /* AmountToVNDSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */; };
+		5C55B83F2D22A6DF00FEDA6E /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C55B82B2D22A69F00FEDA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C55B8162D22A69F00FEDA6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C55B81E2D22A69F00FEDA6E;
+			remoteInfo = NHAmountToVNDSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C55B81F2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NHAmountToVNDSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C55B8222D22A69F00FEDA6E /* NHAmountToVNDSpeech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAmountToVNDSpeech.h; sourceTree = "<group>"; };
+		5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NHAmountToVNDSpeech.docc; sourceTree = "<group>"; };
+		5C55B8292D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHAmountToVNDSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHAmountToVNDSpeechTests.swift; sourceTree = "<group>"; };
+		5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberToVietnamese.swift; sourceTree = "<group>"; };
+		5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountToVNDSpeech.swift; sourceTree = "<group>"; };
+		5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C55B81C2D22A69F00FEDA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C55B8262D22A69F00FEDA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C55B82A2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C55B8152D22A69F00FEDA6E = {
+			isa = PBXGroup;
+			children = (
+				5C55B8212D22A69F00FEDA6E /* NHAmountToVNDSpeech */,
+				5C55B82D2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */,
+				5C55B8202D22A69F00FEDA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C55B8202D22A69F00FEDA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C55B81F2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework */,
+				5C55B8292D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C55B8212D22A69F00FEDA6E /* NHAmountToVNDSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				5C55B8392D22A6C700FEDA6E /* Sources */,
+				5C55B8222D22A69F00FEDA6E /* NHAmountToVNDSpeech.h */,
+				5C55B8232D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc */,
+			);
+			path = NHAmountToVNDSpeech;
+			sourceTree = "<group>";
+		};
+		5C55B82D2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C55B82E2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift */,
+			);
+			path = NHAmountToVNDSpeechTests;
+			sourceTree = "<group>";
+		};
+		5C55B8392D22A6C700FEDA6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */,
+				5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */,
+				5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C55B81A2D22A69F00FEDA6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C55B8302D22A69F00FEDA6E /* NHAmountToVNDSpeech.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C55B81E2D22A69F00FEDA6E /* NHAmountToVNDSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C55B8332D22A69F00FEDA6E /* Build configuration list for PBXNativeTarget "NHAmountToVNDSpeech" */;
+			buildPhases = (
+				5C55B81A2D22A69F00FEDA6E /* Headers */,
+				5C55B81B2D22A69F00FEDA6E /* Sources */,
+				5C55B81C2D22A69F00FEDA6E /* Frameworks */,
+				5C55B81D2D22A69F00FEDA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHAmountToVNDSpeech;
+			productName = NHAmountToVNDSpeech;
+			productReference = 5C55B81F2D22A69F00FEDA6E /* NHAmountToVNDSpeech.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C55B8282D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C55B8362D22A69F00FEDA6E /* Build configuration list for PBXNativeTarget "NHAmountToVNDSpeechTests" */;
+			buildPhases = (
+				5C55B8252D22A69F00FEDA6E /* Sources */,
+				5C55B8262D22A69F00FEDA6E /* Frameworks */,
+				5C55B8272D22A69F00FEDA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C55B82C2D22A69F00FEDA6E /* PBXTargetDependency */,
+			);
+			name = NHAmountToVNDSpeechTests;
+			productName = NHAmountToVNDSpeechTests;
+			productReference = 5C55B8292D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C55B8162D22A69F00FEDA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5C55B81E2D22A69F00FEDA6E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5C55B8282D22A69F00FEDA6E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5C55B8192D22A69F00FEDA6E /* Build configuration list for PBXProject "NHAmountToVNDSpeech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C55B8152D22A69F00FEDA6E;
+			productRefGroup = 5C55B8202D22A69F00FEDA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C55B81E2D22A69F00FEDA6E /* NHAmountToVNDSpeech */,
+				5C55B8282D22A69F00FEDA6E /* NHAmountToVNDSpeechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C55B81D2D22A69F00FEDA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C55B8272D22A69F00FEDA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C55B81B2D22A69F00FEDA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C55B83D2D22A6DE00FEDA6E /* NumberToVietnamese.swift in Sources */,
+				5C55B83F2D22A6DF00FEDA6E /* TextToSpeech.swift in Sources */,
+				5C55B8242D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc in Sources */,
+				5C55B83E2D22A6DF00FEDA6E /* AmountToVNDSpeech.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C55B8252D22A69F00FEDA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C55B82F2D22A69F00FEDA6E /* NHAmountToVNDSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C55B82C2D22A69F00FEDA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C55B81E2D22A69F00FEDA6E /* NHAmountToVNDSpeech */;
+			targetProxy = 5C55B82B2D22A69F00FEDA6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C55B8312D22A69F00FEDA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C55B8322D22A69F00FEDA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C55B8342D22A69F00FEDA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnq.NHAmountToVNDSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C55B8352D22A69F00FEDA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnq.NHAmountToVNDSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C55B8372D22A69F00FEDA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnq.NHAmountToVNDSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C55B8382D22A69F00FEDA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnq.NHAmountToVNDSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C55B8192D22A69F00FEDA6E /* Build configuration list for PBXProject "NHAmountToVNDSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C55B8312D22A69F00FEDA6E /* Debug */,
+				5C55B8322D22A69F00FEDA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C55B8332D22A69F00FEDA6E /* Build configuration list for PBXNativeTarget "NHAmountToVNDSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C55B8342D22A69F00FEDA6E /* Debug */,
+				5C55B8352D22A69F00FEDA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C55B8362D22A69F00FEDA6E /* Build configuration list for PBXNativeTarget "NHAmountToVNDSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C55B8372D22A69F00FEDA6E /* Debug */,
+				5C55B8382D22A69F00FEDA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C55B8162D22A69F00FEDA6E /* Project object */;
+}
