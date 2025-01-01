@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/hungnq11/Desktop/HungNQ/Persional Project/NHAmountToVNDSpeech/CurrencyToSpeech/AmountVNDSpeechDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:NHAmountToVNDSpeech/NHAmountToVNDSpeech.xcodeproj">
    </FileRef>
 </Workspace>

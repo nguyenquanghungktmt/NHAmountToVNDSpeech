@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AmountVoiceViewController" customModule="LearnIOS" customModuleProvider="target">
+            <connections>
+                <outlet property="tfAmount" destination="40U-IQ-H9H" id="8w5-1U-eFl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNs-Y7-pVj">
+                    <rect key="frame" x="0.0" y="59" width="430" height="839"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWT-Si-zgo">
+                            <rect key="frame" x="165" y="40" width="100" height="40"/>
+                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="k3q-0w-Axy"/>
+                                <constraint firstAttribute="width" constant="100" id="y2Q-6a-Lm7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="didSelectBack:" destination="-1" eventType="touchUpInside" id="wRW-LK-II6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZ6-wz-vxd">
+                            <rect key="frame" x="50" y="220" width="330" height="41"/>
+                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Đọc số tiền"/>
+                            <connections>
+                                <action selector="didSelectSpeechAmount:" destination="-1" eventType="touchUpInside" id="KY8-Qq-tJD"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập số tiền (VND)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="40U-IQ-H9H">
+                            <rect key="frame" x="30" y="120" width="370" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Eby-a5-CkB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="40U-IQ-H9H" firstAttribute="leading" secondItem="KNs-Y7-pVj" secondAttribute="leading" constant="30" id="5l7-gO-tO4"/>
+                        <constraint firstItem="vZ6-wz-vxd" firstAttribute="top" secondItem="40U-IQ-H9H" secondAttribute="bottom" constant="40" id="As6-Bp-G2T"/>
+                        <constraint firstItem="40U-IQ-H9H" firstAttribute="top" secondItem="SWT-Si-zgo" secondAttribute="bottom" constant="40" id="Hq2-UH-XvF"/>
+                        <constraint firstItem="SWT-Si-zgo" firstAttribute="top" secondItem="KNs-Y7-pVj" secondAttribute="top" constant="40" id="MR1-VD-23i"/>
+                        <constraint firstItem="vZ6-wz-vxd" firstAttribute="centerX" secondItem="KNs-Y7-pVj" secondAttribute="centerX" id="NUc-gz-Qer"/>
+                        <constraint firstItem="vZ6-wz-vxd" firstAttribute="leading" secondItem="KNs-Y7-pVj" secondAttribute="leading" constant="50" id="Z5I-Yq-Eal"/>
+                        <constraint firstItem="SWT-Si-zgo" firstAttribute="centerX" secondItem="KNs-Y7-pVj" secondAttribute="centerX" id="cHd-mR-WX4"/>
+                        <constraint firstItem="40U-IQ-H9H" firstAttribute="centerX" secondItem="KNs-Y7-pVj" secondAttribute="centerX" id="nyo-aR-r8o"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KNs-Y7-pVj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Eq0-vz-seG"/>
+                <constraint firstItem="KNs-Y7-pVj" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="HFL-95-bJq"/>
+                <constraint firstItem="KNs-Y7-pVj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="glr-iy-Mjm"/>
+                <constraint firstItem="KNs-Y7-pVj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rDW-1a-A3k"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
