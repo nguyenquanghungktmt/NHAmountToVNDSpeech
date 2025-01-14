@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NHAmountToVNDSpeech
 
 class HomeViewController: UIViewController {
 
@@ -22,6 +23,7 @@ class HomeViewController: UIViewController {
 
     @IBAction func tappedClickHere(_ sender: UIButton) {
         print("hungnq - click on button Click Here")
+        requestIDFA()
     }
     
     
@@ -42,10 +44,17 @@ class HomeViewController: UIViewController {
     
     
     @IBAction func tappedTextToSpeech(_ sender: Any) {
-        let vc = AmountVoiceViewController(nibName: nil, bundle: nil)
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = AmountVoiceDemoVC(nibName: nil, bundle: nil)
+//        self.navigationController?.pushViewController(vc, animated: true)
+        NHAmountToVNDSpeechFramework.shared.openSDK(from: self, delegate: self)
     }
     
+}
+
+extension HomeViewController: NHAmountToVNDSpeechDelegate {
+    func printVC() {
+        print("hungnq - open SDK from \(String(describing: self))")
+    }
 }
 
 extension UIViewController{

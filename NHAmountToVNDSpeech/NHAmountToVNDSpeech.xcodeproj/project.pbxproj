@@ -13,6 +13,9 @@
 		5C55B83D2D22A6DE00FEDA6E /* NumberToVietnamese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */; };
 		5C55B83E2D22A6DF00FEDA6E /* AmountToVNDSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */; };
 		5C55B83F2D22A6DF00FEDA6E /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */; };
+		5CA37AC72D363BF0002E7F46 /* NHAmountToVNDSpeechFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA37AC62D363BF0002E7F46 /* NHAmountToVNDSpeechFramework.swift */; };
+		5CA37ACA2D363FE1002E7F46 /* NHAmountVoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA37AC82D363FE1002E7F46 /* NHAmountVoiceViewController.xib */; };
+		5CA37ACB2D363FE1002E7F46 /* NHAmountVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA37AC92D363FE1002E7F46 /* NHAmountVoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,9 @@
 		5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberToVietnamese.swift; sourceTree = "<group>"; };
 		5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountToVNDSpeech.swift; sourceTree = "<group>"; };
 		5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		5CA37AC62D363BF0002E7F46 /* NHAmountToVNDSpeechFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHAmountToVNDSpeechFramework.swift; sourceTree = "<group>"; };
+		5CA37AC82D363FE1002E7F46 /* NHAmountVoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHAmountVoiceViewController.xib; sourceTree = "<group>"; };
+		5CA37AC92D363FE1002E7F46 /* NHAmountVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHAmountVoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +90,30 @@
 		5C55B8392D22A6C700FEDA6E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				5CA37AC02D363B2E002E7F46 /* Screens */,
+				5CA37AC62D363BF0002E7F46 /* NHAmountToVNDSpeechFramework.swift */,
 				5C55B83B2D22A6DE00FEDA6E /* AmountToVNDSpeech.swift */,
 				5C55B83A2D22A6DE00FEDA6E /* NumberToVietnamese.swift */,
 				5C55B83C2D22A6DE00FEDA6E /* TextToSpeech.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		5CA37AC02D363B2E002E7F46 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5CA37AC32D363B3E002E7F46 /* AmountVoiceVC */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5CA37AC32D363B3E002E7F46 /* AmountVoiceVC */ = {
+			isa = PBXGroup;
+			children = (
+				5CA37AC92D363FE1002E7F46 /* NHAmountVoiceViewController.swift */,
+				5CA37AC82D363FE1002E7F46 /* NHAmountVoiceViewController.xib */,
+			);
+			path = AmountVoiceVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA37ACA2D363FE1002E7F46 /* NHAmountVoiceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +230,8 @@
 				5C55B83F2D22A6DF00FEDA6E /* TextToSpeech.swift in Sources */,
 				5C55B8242D22A69F00FEDA6E /* NHAmountToVNDSpeech.docc in Sources */,
 				5C55B83E2D22A6DF00FEDA6E /* AmountToVNDSpeech.swift in Sources */,
+				5CA37AC72D363BF0002E7F46 /* NHAmountToVNDSpeechFramework.swift in Sources */,
+				5CA37ACB2D363FE1002E7F46 /* NHAmountVoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

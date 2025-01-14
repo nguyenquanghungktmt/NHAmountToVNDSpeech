@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import NHAmountToVNDSpeech
 
-class  AmountVoiceDemoVC: UIViewController {
+class AmountVoiceViewController: UIViewController {
     @IBOutlet weak var tfAmount: UITextField!
     
     override func viewDidLoad() {
