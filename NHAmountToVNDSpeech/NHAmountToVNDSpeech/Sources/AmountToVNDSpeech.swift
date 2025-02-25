@@ -24,15 +24,15 @@ final public class AmountToVNDSpeech: NSObject {
         textToSpeech = TextToSpeech()
     }
     
-    public func speak(_ amount: String) {
+    public func speak(_ amount: String, speed: Float = 0.3) {
         
         if !validAmount(amount) {
-            textToSpeech?.speak("Số tiền không hợp lệ")
+            textToSpeech?.speak("Số tiền không hợp lệ", speed)
             return
         }
         
         let text = numberToVietnamese?.numberToWord(amount) ?? ""
-        textToSpeech?.speak(text)
+        textToSpeech?.speak(text, speed)
     }
     
     public func destroy() {

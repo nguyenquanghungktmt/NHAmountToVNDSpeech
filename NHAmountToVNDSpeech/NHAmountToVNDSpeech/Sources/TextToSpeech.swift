@@ -10,11 +10,11 @@ import AVFoundation
 internal class TextToSpeech {
     var synthesizer = AVSpeechSynthesizer()
     
-    internal func speak(_ text: String, _ language: String = "vi") {
+    internal func speak(_ text: String,_ speed: Float) {
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: language)
+        utterance.voice = AVSpeechSynthesisVoice(language: "vi")
         utterance.pitchMultiplier = 0.8
-        utterance.rate = 0.2 // min: 0.1, max: 1.0, default: 0.5
+        utterance.rate = speed // min: 0.1, max: 1.0, default: 0.5
         
         synthesizer.speak(utterance)
     }
